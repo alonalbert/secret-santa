@@ -1,0 +1,10 @@
+[versions]
+mail = "1.6.2"
+
+[libraries]
+mail = { group = "com.sun.mail", name = "javax.mail", version.ref = "mail" }
+
+[plugins]
+
+[bundles]
+
