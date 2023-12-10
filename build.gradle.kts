@@ -11,7 +11,9 @@ repositories {
 
 dependencies {
     implementation(libs.mail)
-    testImplementation("org.jetbrains.kotlin:kotlin-test")
+    implementation(libs.gson)
+    implementation(libs.kotlin.test)
+    implementation(libs.truth)
 }
 
 tasks.test {
